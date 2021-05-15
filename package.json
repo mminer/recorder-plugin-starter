@@ -1,0 +1,10 @@
+{
+  "name": "com.matthewminer.recorderpluginstarter",
+  "displayName": "Recorder Plugin Starter",
+  "version": "0.0.1",
+  "unity": "2020.3",
+  "description": "Bare-bones Recorder plugin to use as starting point.",
+  "dependencies": {
+    "com.unity.recorder": "2.5.0"
+  }
+}
