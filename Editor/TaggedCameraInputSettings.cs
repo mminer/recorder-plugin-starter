@@ -34,17 +34,12 @@ namespace UnityEditor.RecorderPluginStarter
 
         [SerializeField] int outputWidth = 1920;
 
-        protected override bool ValidityCheck(List<string> errors)
+        protected override void CheckForErrors(List<string> errors)
         {
-            var ok = true;
-
             if (OutputWidth <= 0 || OutputHeight <= 0)
             {
                 errors.Add($"$Invalid output resolution: {OutputWidth}x{OutputHeight}");
-                ok = false;
             }
-
-            return ok;
         }
     }
 }

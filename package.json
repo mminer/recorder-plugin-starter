@@ -5,6 +5,6 @@
   "unity": "2020.3",
   "description": "Bare-bones Recorder plugin to use as starting point.",
   "dependencies": {
-    "com.unity.recorder": "2.5.0"
+    "com.unity.recorder": "3.0.0"
   }
 }
